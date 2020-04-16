@@ -21,5 +21,10 @@ namespace ListaCovid_19_Pippi.Model
         public int tamponi { get; set; }
         public string note_it { get; set; }
         public string note_en { get; set; }
+
+        public override string ToString()
+        {
+            return $"data: {data.ToShortDateString()} stato: {stato} deceduti: {deceduti} ricoverati: {ricoverati_con_sintomi} totale posivi: {totale_positivi} nuovi positivi: {nuovi_positivi}";
+        }
     }
 }

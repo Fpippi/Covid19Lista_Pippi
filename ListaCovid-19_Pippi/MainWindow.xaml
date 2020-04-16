@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="Btn_CaricaLista" Content="Button" HorizontalAlignment="Left" Margin="56,78,0,0" VerticalAlignment="Top" Width="68"/>
-        <ListBox x:Name="LIst_covid19" Margin="308,78,51,82"/>
+        <Button x:Name="Btn_CaricaLista" Content="Carica" HorizontalAlignment="Left" Margin="56,78,0,0" VerticalAlignment="Top" Width="68" Click="Btn_CaricaLista_Click"/>
+        <ListBox x:Name="LIst_covid19" Margin="90,150,83,10"/>
 
     </Grid>
 </Window>
